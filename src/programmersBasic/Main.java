@@ -1,14 +1,13 @@
 package programmersBasic;
 
-import programmersBasic.basicday9.Test88;
-import programmersBasic.basicday9.Test89;
-import programmersBasic.basicday9.Test90;
+import programmersBasic.basicClue.Test추억점수;
 
 public class Main {
     public static void main(String[] args) {
-        Test90 test = new Test90();
+        Test추억점수 test = new Test추억점수();
 
-        System.out.println(test.solution("hello", "ohell"));
+
+        System.out.println(test.solution(new String[]{"may", "kein", "kain", "radi"}, new int[]{5, 10, 1, 3}, new String[][]{{"may", "kein"}, {"may", "kain"}, {"may", "radi"}}));
     }
 
 }
